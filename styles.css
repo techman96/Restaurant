@@ -1,0 +1,113 @@
+ *{
+  box-sizing: border-box;
+ }
+
+ body{
+  background-color: floralwhite;
+  max-width: 90%;
+  margin: 0 auto;
+  font-family: 'Roboto Slab', serif;
+ }
+
+ body h1,h2,h3, p{
+  margin: 0;
+  padding: 0;
+ }
+ a{
+  text-decoration: none;
+  color: black;
+ }
+ 
+.header{
+  text-align: center;
+  font-size: 4vw;
+  font-family: 'Russo One', sans-serif;
+  margin: 10px;
+  animation-name: head;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+}
+@keyframes head{
+  from{opacity: 0;}
+  to{opacity: 100%;}
+}
+
+ .heading{
+  margin: 0 auto;
+  font-family: Yatra one;
+}
+
+.heading h1{
+  font-style: italic;
+  font-family: 'Roboto Slab', serif;
+  padding-bottom: 10px;
+}
+
+ figure{
+  margin: 0 auto;
+  padding: 0;
+  max-width: 100%;
+ }
+ figcaption{
+  font-size: 15px;
+ }
+ 
+  img {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  max-width: inherit;
+}
+div{
+  margin: 0 auto;
+}
+#first-pic{
+  border: 1px solid black;
+
+}
+
+.by{
+  padding: 15px 0;
+  display: block;
+}
+.by img{
+  width: 10%;
+  height: auto;
+  margin: 0 1px;
+  border-radius: 50%;
+}
+.by img:hover{
+  width: 10.5%;
+  transition: all 0.3s ease-in-out;
+}
+#by-name{
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-weight: 500;
+}
+u:hover{
+  color: olive;
+}
+
+.text p{
+  padding: 13px 0;
+  font-size: 1.3em;
+}
+
+@media screen and (min-width:850px) {
+  body{
+    max-width: 70%;
+}
+.header{
+  font-size: 3.0em;
+}
+.heading{
+  font-size: 1.3em;
+  max-width:90%;
+  padding: 10px 0;
+}
+.container{
+  max-width: 70%;
+}
+}
