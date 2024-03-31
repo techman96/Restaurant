@@ -9,7 +9,7 @@
   font-family: 'Roboto Slab', serif;
  }
 
- body h1,h2,h3, p{
+ body h1,h2,h3, p,th{
   margin: 0;
   padding: 0;
  }
@@ -93,6 +93,23 @@ u:hover{
 .text p{
   padding: 13px 0;
   font-size: 1.3em;
+}
+table{
+  margin: 0 auto;
+}
+tr{
+}
+th{
+  background-color: burlywood;
+  font-size: 1.3em;
+}
+th,td{
+  border: 1px 1px 1px  solid black;
+  width:120px;
+  text-align: center;
+}
+.bronx{
+  background-color: rgb(187, 28, 187);
 }
 
 @media screen and (min-width:850px) {
