@@ -9,7 +9,7 @@
   font-family: 'Roboto Slab', serif;
  }
 
- body h1,h2,h3, p,th{
+ body h1,h2,h3,h4,h5,h6, p,th{
   margin: 0;
   padding: 0;
  }
@@ -97,16 +97,19 @@ u:hover{
 table{
   margin: 0 auto;
 }
-tr{
-}
 th{
   background-color: burlywood;
   font-size: 1.3em;
+  padding: 5px;
 }
 th,td{
   border: 1px 1px 1px  solid black;
   width:120px;
   text-align: center;
+}
+td{
+  padding: 5px 0;
+  font: 1.1em;
 }
 .bronx{
   background-color: rgb(187, 28, 187);
