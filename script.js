@@ -14,13 +14,3 @@ let observer = new IntersectionObserver(entries => {
 videos.forEach(el => {
   observer.observe(el)
 })
-
-
-
-playBtn.onclick = function(){
-  if(video.paused){
-  video.play()
-} else{
-  video.pause()
-}
-}

@@ -6,14 +6,14 @@
   background-color: floralwhite;
   max-width: 90%;
   margin: 0 auto;
-  font-family: 'Roboto Slab', serif;
+  font-family: sans-serif
  }
 
  body h1,h2,h3,h4,h5,h6, p,th{
   margin: 0;
   padding: 0;
  }
- a{
+ div a{
   text-decoration: none;
   color: black;
  }
@@ -115,7 +115,7 @@ td{
   font: 1.1em;
 }
 .bronx{
-  background-color: rgb(187, 28, 187);
+  background-color: rgb(251, 162, 251);
 }
 
 @media screen and (min-width:850px) {
